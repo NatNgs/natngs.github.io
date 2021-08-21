@@ -1,0 +1,66 @@
+body {
+	background-color: #223;
+	color: #DDD;
+	font-family: Segoe UI, Calibri, Verdana, sans;
+	margin: 0;
+	padding: 0;
+}
+a {
+	color: #BCF;
+}
+a.t {
+	font-size: 120%;
+}
+h1 {
+	font-size: 2em;
+	color: #D8D8F0;
+	margin: .25em .5em 0 .25em;
+	height: 2em;
+}
+h2 {
+	margin: 0;
+	background: #fff3;
+	padding: .25em 1em;
+}
+.script {
+	font-family: Segoe Print, Verdana, sans;
+}
+.ee {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	color: #333;
+}
+div.bdy {
+	height: calc(99vh - 8em);
+	padding: 1em;
+}
+.btm {
+	padding-left: 5em;
+	font-size: .8em;
+	display: flex;
+	justify-content: space-between;
+}
+div.status {
+	color: #AFC;
+}
+img.ghl {
+	height: 1em;
+}
+code {
+	display: inline-block;
+	background-color: #0006;
+	padding: .5em;
+	border-radius: .5em;
+}
+div.sub {
+	color: #AAA;
+	font-size: .9em;
+}
+.bdy > div {
+	padding-bottom: 1.5em;
+	transition: background-color .5s;
+}
+.bdy > div:hover {
+	background-color: #FFF1;
+}
